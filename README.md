@@ -31,7 +31,7 @@
         <img src="profilo.jpg" alt="Profile Picture" class="profile-img mb-3">
         <h1 class="fw-bold">Stefano Rosini</h1>
         <p class="lead">Computer Scientist | Master's Student in Computer Science</p>
-        <p>I have a passion for learning new things and can adapt easily to new environments.</p>
+        <p>I have a passion for learning new things and i can adapt easily to new environments.</p>
     </div>
 </header>
 
@@ -45,33 +45,29 @@
                 <div class="card-body">
                     <h5 class="card-title">Periodontitis Detection (MATLAB)</h5>
                     <p class="card-text">
-                        A study using smartphone images and MATLAB to automatically detect and segment teeth for periodontitis evaluation.
+                        A study made during the bachelor degree in which i used Smartphone images and MATLAB image processing methods to automatically detect and segment teeth for periodontitis evaluation.
                     </p>
                     <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-outline-primary" target="_blank">Read Paper</a>
                 </div>
             </div>
         </div>
-
         <!-- Add more cards here -->
-        <!-- Example:
         <div class="col-md-6 col-lg-4">
             <div class="card portfolio-card shadow-sm h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Project Title</h5>
-                    <p class="card-text">Short description of the project.</p>
-                    <a href="#" class="btn btn-outline-primary" target="_blank">View More</a>
+                    <h5 class="card-title">Agent Implementation</h5>
+                    <p class="card-text">In this project made during my master's degree, i made a project in DALI (<a href="https://stefano899.github.io/Stefano-portfolio/" class="btn btn-primary mx-2" target="_blank">Link to the DALI's paper</a>) in which i created some intelligents agents that cooperate with eachothers into doing an auction.</p>
+                    <a href="#" class="https://github.com/stefano899/AgentArchitecture" target="_blank">For viewing the project</a>
                 </div>
             </div>
         </div>
-        -->
-
     </div>
 </section>
 
 <!-- Footer Links -->
 <footer class="text-center py-4">
     <a href="https://stefano899.github.io/Stefano-portfolio/" class="btn btn-primary mx-2" target="_blank">Visit My Full Site</a>
-    <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-outline-secondary mx-2" target="_blank">Published Paper</a>
+    <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&hl=it&oi=ao" class="btn btn-outline-secondary mx-2" target="_blank"> Scholar Page</a>
 </footer>
 
 </body>

@@ -8,4 +8,9 @@
     <p class="lead text-center">I'm a computer scientist who's currently finishing the master's degree in computer science.</p>
     <p class="text-center">I have a passion for learning new things and can adapt easily to new environments.</p>
 </div>
-<a href="https://stefano899.github.io/Stefano-portfolio/" target="_blank">Visita il mio portfolio</a>
+
+<div class="containeer mt-5">
+    <h1 class="text-center"> Portfolio of my projects</h1>h1>
+    <p class="lead text-center"> In this section you can find my portfolio of all the projects that i did!</p>
+    <p class="text-center> i've done and published during my bachelor degree an article in which i implemented in matlab a periodontisis evaluation through automatic teeth detection and segmentation from self-collected smartphone images. </p>
+    <a href="[https://stefano899.github.io/Stefano-portfolio/]        (https://ieeexplore.ieee.org/document/10178731)" target="_blank">Link to the paper</a>

@@ -61,6 +61,24 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card portfolio-card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Agent Implementation</h5>
+                    <p class="card-text">In this project made during my master's degree, i made a project in DALI (<a href="https://stefano899.github.io/Stefano-portfolio/">Link to the DALI's paper</a>) in which i created some intelligents agents that cooperate with eachothers into doing an auction.</p>
+                    <a href="https://github.com/stefano899/AgentArchitecture" class="btn btn-outline-primary" target="_blank">Go to the project</a>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-6 col-lg-4">
+            <div class="card portfolio-card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Java Chess Implementation</h5>
+                    <p class="card-text">In this project made during my bachelor degree, i made a project in Java in which i created a simple chess game that runs on terminal.</p>
+                    <a href="https://github.com/LPODISIM2023/scacchi-informatici-a-chiamata" class="btn btn-outline-primary" target="_blank">Go to the project</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

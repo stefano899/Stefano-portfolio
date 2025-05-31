@@ -16,6 +16,7 @@
 <div class="text-center mt-3">
         <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-primary" target="_blank">Link to the paper</a>
     </div>
-<a href="https://stefano899.github.io/Stefano-portfolio/" target="_blank">Visita il mio portfolio</a>
 
+<div class="text-center mt-3">
+        <a href="https://stefano899.github.io/Stefano-portfolio/"  class="btn btn-primary" target="_blank">Link to my site</a>
 </div>

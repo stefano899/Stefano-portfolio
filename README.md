@@ -8,3 +8,4 @@
     <p class="lead text-center">I'm a computer scientist who's currently finishing the master's degree in computer science.</p>
     <p class="text-center">I have a passion for learning new things and can adapt easily to new environments.</p>
 </div>
+<a href="https://stefano899.github.io/Stefano-portfolio/" target="_blank">Visita il mio portfolio</a>

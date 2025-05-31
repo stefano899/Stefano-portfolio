@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,7 +29,7 @@
 <header class="bg-white shadow-sm py-4 mb-5">
     <div class="container text-center">
         <img src="profilo.jpg" alt="Profile Picture" class="profile-img mb-3">
-        <h1 class="fw-bold">Stefano [Your Last Name]</h1>
+        <h1 class="fw-bold">Stefano Rosini</h1>
         <p class="lead">Computer Scientist | Master's Student in Computer Science</p>
         <p>I have a passion for learning new things and can adapt easily to new environments.</p>
     </div>

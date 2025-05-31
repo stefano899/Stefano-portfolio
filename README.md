@@ -8,7 +8,7 @@
     <p class="text-center">I have a passion for learning new things and can adapt easily to new environments.</p>
 </div>
 
-<div class="container mt-5">
+<div class="container mt-5 bg-light p-4 rounded shadow">
     <h1 class="text-center">Portfolio of my projects</h1>
     <p class="lead text-center">In this section, you can find my portfolio of all the projects that I have worked on!</p>
     <p class="text-center">During my bachelor's degree, I published an article in which I implemented, using MATLAB, an evaluation of periodontitis through automatic teeth detection and segmentation from self-collected smartphone images.</p>
@@ -19,4 +19,6 @@
 
 <div class="text-center mt-3">
         <a href="https://stefano899.github.io/Stefano-portfolio/"  class="btn btn-primary" target="_blank">Link to my site</a>
+</div>
+
 </div>

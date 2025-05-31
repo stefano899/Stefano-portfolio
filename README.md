@@ -24,6 +24,8 @@
             from self-collected smartphone images.
         </p>
         
+
+</div>
 <div class="text-center mt-3">
             <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-primary" target="_blank">
                 Link to the paper
@@ -35,5 +37,4 @@
                 Link to my site
             </a>
         </div>
-    </div>
 </body>

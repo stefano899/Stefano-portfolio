@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>
-         <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4">
             <div class="card portfolio-card shadow-sm h-100">
                 <div class="card-body">
                     <h5 class="card-title">Java Chess Implementation</h5>

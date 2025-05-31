@@ -13,7 +13,7 @@
     <p class="lead text-center">In this section, you can find my portfolio of all the projects that I have worked on!</p>
     <p class="text-center">During my bachelor's degree, I published an article in which I implemented, using MATLAB, an evaluation of periodontitis through automatic teeth detection and segmentation from self-collected smartphone images.</p>
     
-    <div class="text-center mt-3">
+<div class="text-center mt-3">
         <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-primary" target="_blank">Link to the paper</a>
     </div>
 </div>

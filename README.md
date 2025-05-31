@@ -83,8 +83,8 @@
 
 <!-- Footer Links -->
 <footer class="text-center py-4">
-    <a href="https://stefano899.github.io/Stefano-portfolio/" class="btn btn-primary mx-2" target="_blank">Visit My Full Site</a>
-    <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&hl=it&oi=ao" class="btn btn-outline-secondary mx-2" target="_blank"> Scholar Page</a>
+    <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&hl=it&oi=ao" class="btn btn-primary mx-2" target="_blank">Scholar Page</a>
+   
 </footer>
 
 </body>

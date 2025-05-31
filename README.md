@@ -64,7 +64,7 @@
         <div class="col-md-6 col-lg-4">
             <div class="card portfolio-card shadow-sm h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Python CNN Implemantation</h5>
+                    <h5 class="card-title">Python CNN Implementation</h5>
                     <p class="card-text">In this project made during the master's degree, i created 2 CNN architectures with different initialization schemas for the evaluation of the performances between them.</p>
                     <a href="https://github.com/stefano899/DNN_2025" class="btn btn-outline-primary" target="_blank">Go to the project</a>
                 </div>

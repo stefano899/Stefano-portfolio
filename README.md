@@ -11,37 +11,30 @@
       --card-height: 260px;      /* altezza totale card (solo il corpo) */
       --text-max-height: 120px;  /* altezza dell'area scrollabile */
     }
-
     body { background-color: #f8f9fa; }
-
     .profile-img {
       width: 150px; height: 150px; object-fit: cover;
       border-radius: 50%; border: 4px solid #0d6efd;
     }
-
     .portfolio-card { transition: transform 0.3s ease; }
     .portfolio-card:hover { transform: translateY(-5px); }
-
     /* Card uniformi + layout per allineare il bottone in basso */
     .portfolio-card .card-body{
       height: var(--card-height);
       display: flex;
       flex-direction: column;
     }
-
     /* Area descrizione scrollabile */
     .card-text-scroll{
       flex: 1 1 auto;
       overflow: auto;
       max-height: var(--text-max-height);
     }
-
     /* Spazio tra testo e bottone, bottone parte da sinistra */
     .card-body .btn{
       margin-top: 0.75rem;
       align-self: flex-start;
     }
-
     /* Piccolo tuning responsive: su schermi piccoli alzo l'area testo */
     @media (max-width: 575.98px){
       :root{
@@ -52,7 +45,6 @@
   </style>
 </head>
 <body>
-
 <!-- Header Section -->
 <header class="bg-white shadow-sm py-4 mb-5">
   <div class="container text-center">

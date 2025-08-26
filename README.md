@@ -31,6 +31,7 @@
 <section class="container mb-5">
   <h2 class="text-center mb-4">Portfolio Projects</h2>
 
+  <!-- TUTTE le card sono dentro la stessa row -->
   <div class="row g-4">
     <!-- Project Card 1 -->
     <div class="col-md-6 col-lg-4">
@@ -51,7 +52,7 @@
           <h5 class="card-title">Agent Implementation</h5>
           <p class="card-text">
             DALI project: a set of intelligent agents cooperating to run an auction.
-            (<a href="https://stefano899.github.io/Stefano-portfolio/" target="_blank" rel="noopener">About DALI</a>)
+            (<a href="https://stefano899.github.io/Stefano-portfolio/" target="_blank" rel="noopener">Link to the DALI paper</a>)
           </p>
           <a href="https://github.com/stefano899/AgentArchitecture" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
@@ -83,7 +84,7 @@
         <div class="card-body">
           <h5 class="card-title">Data-Science-Project</h5>
           <p class="card-text">
-            Phishing classifier (Decision Tree + stats) and sales forecasting/optimization (Avezzano/Pescara).
+            Phishing classifier (Decision Tree + statistical analysis) and sales forecasting/optimization (Avezzano/Pescara).
             Python: scikit-learn, pandas, gurobipy.
           </p>
           <a href="https://github.com/stefano899/Data-Science-Project" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
@@ -92,6 +93,7 @@
     </div>
   </div>
 </section>
+
 <!-- Footer Links -->
 <footer class="text-center py-4">
   <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&hl=it&oi=ao" class="btn btn-primary mx-2" target="_blank" rel="noopener">Scholar Page</a>

@@ -116,11 +116,11 @@
           <h5 class="card-title">Data-Science-Project</h5>
           <div class="card-text-scroll">
             For the Data Analytics and Data-Driven Decision exam, I developed three projects:
-
+<ul>
 PhishingFinale: Built a binary decision tree classifier to distinguish between phishing and non-phishing websites, supported by statistical analysis for deciding if the dataset should have been manipulated or not.
 
-Challenge Avezzano & Pescara: Predicted contract sales for cities in the Abruzzo region and designed a decision optimization algorithm to estimate the optimal backbone network based on the dataset.
-
+Challenge Avezzano & Pescara(2 projects): Predicted contract sales for cities in the Abruzzo region and designed a decision optimization algorithm to estimate the optimal backbone network based on the dataset.
+</ul>
 Technologies used: Python Libraries: Scikit-learn, Pandas, GurobiPy
           </div>
           <a href="https://github.com/stefano899/Data-Science-Project" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>

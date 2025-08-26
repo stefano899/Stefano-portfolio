@@ -6,13 +6,49 @@
   <title>Stefano's Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
+    :root{
+      /* regola qui l'altezza globale delle card e dell'area testo */
+      --card-height: 260px;      /* altezza totale card (solo il corpo) */
+      --text-max-height: 120px;  /* altezza dell'area scrollabile */
+    }
+
     body { background-color: #f8f9fa; }
+
     .profile-img {
       width: 150px; height: 150px; object-fit: cover;
       border-radius: 50%; border: 4px solid #0d6efd;
     }
+
     .portfolio-card { transition: transform 0.3s ease; }
     .portfolio-card:hover { transform: translateY(-5px); }
+
+    /* Card uniformi + layout per allineare il bottone in basso */
+    .portfolio-card .card-body{
+      height: var(--card-height);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Area descrizione scrollabile */
+    .card-text-scroll{
+      flex: 1 1 auto;
+      overflow: auto;
+      max-height: var(--text-max-height);
+    }
+
+    /* Spazio tra testo e bottone, bottone parte da sinistra */
+    .card-body .btn{
+      margin-top: 0.75rem;
+      align-self: flex-start;
+    }
+
+    /* Piccolo tuning responsive: su schermi piccoli alzo l'area testo */
+    @media (max-width: 575.98px){
+      :root{
+        --card-height: 300px;
+        --text-max-height: 170px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -31,62 +67,67 @@
 <section class="container mb-5">
   <h2 class="text-center mb-4">Portfolio Projects</h2>
 
-  <!-- TUTTE le card sono dentro la stessa row -->
   <div class="row g-4">
-    <!-- Project Card 1 -->
+    <!-- Card 1 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
           <h5 class="card-title">Periodontitis Detection (MATLAB)</h5>
-          <p class="card-text">
+          <div class="card-text-scroll">
             Bachelor's thesis: smartphone images + MATLAB image processing to detect and segment teeth for periodontitis evaluation.
-          </p>
+          </div>
           <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-outline-primary" target="_blank" rel="noopener">Read Paper</a>
         </div>
       </div>
     </div>
-    <!-- Project Card 2 -->
+    <!-- Card 2 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
           <h5 class="card-title">Agent Implementation</h5>
-          <p class="card-text">
+          <div class="card-text-scroll">
             DALI project: a set of intelligent agents cooperating to run an auction.
-            (<a href="https://stefano899.github.io/Stefano-portfolio/" target="_blank" rel="noopener">Link to the DALI paper</a>)
-          </p>
+            (<a href="https://stefano899.github.io/Stefano-portfolio/" target="_blank" rel="noopener">About DALI</a>)
+            Puoi aggiungere altro testo qui senza allungare la card: comparirà la scrollbar interna.
+          </div>
           <a href="https://github.com/stefano899/AgentArchitecture" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
       </div>
     </div>
-    <!-- Project Card 3 -->
+    <!-- Card 3 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
           <h5 class="card-title">Python CNN Implementation</h5>
-          <p class="card-text">Two CNN architectures with different initializations to compare performance.</p>
+          <div class="card-text-scroll">
+            Two CNN architectures with different initializations to compare performance.
+          </div>
           <a href="https://github.com/stefano899/DNN_2025" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
       </div>
     </div>
-    <!-- Project Card 4 -->
+    <!-- Card 4 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
           <h5 class="card-title">Java Chess Implementation</h5>
-          <p class="card-text">Simple terminal chess game (Bachelor's project) written in Java.</p>
+          <div class="card-text-scroll">
+            Simple terminal chess game (Bachelor's project) written in Java.
+          </div>
           <a href="https://github.com/LPODISIM2023/scacchi-informatici-a-chiamata" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
       </div>
     </div>
-    <!-- Project Card 5 -->
+    <!-- Card 5 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
           <h5 class="card-title">Data-Science-Project</h5>
-          <p class="card-text">
+          <div class="card-text-scroll">
             Phishing classifier (Decision Tree + statistical analysis) and sales forecasting/optimization (Avezzano/Pescara).
             Python: scikit-learn, pandas, gurobipy.
-          </p>
+            Ulteriori dettagli, note tecniche, risultati, grafici, ecc. — se il testo supera il limite, si può scorrere qui dentro.
+          </div>
           <a href="https://github.com/stefano899/Data-Science-Project" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
       </div>

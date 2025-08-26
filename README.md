@@ -119,7 +119,7 @@
 <ul>
 PhishingFinale: Built a binary decision tree classifier to distinguish between phishing and non-phishing websites, supported by statistical analysis for deciding if the dataset should have been manipulated or not.
 
-Challenge Avezzano & Pescara(2 projects): Predicted contract sales for cities in the Abruzzo region and designed a decision optimization algorithm to estimate the optimal backbone network based on the dataset.
+Challenge Avezzano & Pescara(2 projects): Predicted contract sales for cities in the Abruzzo region and designed a decision optimization algorithm to estimate the optimal backbone network based on the dataset with root in Avezzano and Pescara. The two codes have the same data analysis.
 </ul>
 Technologies used: Python Libraries: Scikit-learn, Pandas, GurobiPy
           </div>

@@ -44,7 +44,6 @@
         </div>
       </div>
     </div>
-
     <!-- Project Card 2 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
@@ -58,7 +57,6 @@
         </div>
       </div>
     </div>
-
     <!-- Project Card 3 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
@@ -69,7 +67,6 @@
         </div>
       </div>
     </div>
-
     <!-- Project Card 4 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
@@ -80,7 +77,6 @@
         </div>
       </div>
     </div>
-
     <!-- Project Card 5 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
@@ -96,7 +92,6 @@
     </div>
   </div>
 </section>
-
 <!-- Footer Links -->
 <footer class="text-center py-4">
   <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&hl=it&oi=ao" class="btn btn-primary mx-2" target="_blank" rel="noopener">Scholar Page</a>

@@ -63,9 +63,9 @@
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
-          <h5 class="card-title">Periodontitis Detection (MATLAB)</h5>
+          <h5 class="card-title">Periodontitis Detection </h5>
           <div class="card-text-scroll">
-            A study made during the bachelor's thesys in which i used Smartphone images and MATLAB image processing methods to automatically detect and segment teeth for periodontitis evaluation.
+            A study made during the bachelor's thesys in which i used Smartphone images and MATLAB image processing methods to automatically detect and segment teeth for periodontitis evaluation. The whole project was made in MATLAB
           </div>
           <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-outline-primary" target="_blank" rel="noopener">Read Paper</a>
         </div>

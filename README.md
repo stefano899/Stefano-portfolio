@@ -8,8 +8,8 @@
   <style>
     :root{
       /* regola qui l'altezza globale delle card e dell'area testo */
-      --card-height: 260px;      /* altezza totale card (solo il corpo) */
-      --text-max-height: 120px;  /* altezza dell'area scrollabile */
+      --card-height: 300px;      /* altezza totale card (solo il corpo) */
+      --text-max-height: 170px;  /* altezza dell'area scrollabile */
     }
     body { background-color: #f8f9fa; }
     .profile-img {

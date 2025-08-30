@@ -126,8 +126,7 @@ Technologies used: Python Libraries: Scikit-learn, Pandas, GurobiPy
       </div>
     </div>
   </div>
-</section>
-    <div class="col-md-6 col-lg-4">
+     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
           <h5 class="card-title">Dataset Analysis Projects</h5>
@@ -138,6 +137,8 @@ Technologies used: Python Libraries: Scikit-learn, Pandas, GurobiPy
         </div>
       </div>
     </div>
+</section>
+ 
 <!-- Footer Links -->
 <footer class="text-center py-4">
   <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&hl=it&oi=ao" class="btn btn-primary mx-2" target="_blank" rel="noopener">Scholar Page</a>

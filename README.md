@@ -137,6 +137,25 @@
       </div>
     </div>
   </div>
+    <!-- Card 6 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card portfolio-card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning Projects</h5>
+          <div class="card-text-scroll">
+             Machine learning projects that were done during the master's in computer science. This github is composed by three different projects:
+            <ul>
+            <li><b>Missing Values predictor</b>: Project in which i had to build a machine learning model for predicting missing values from a dataset</li>
+            <li><b>Sequence predictors</b>: Project in which i had to build a machine learning algorithms for predicting a sequence of either symbolic or numeric values, given a known sequence</li>
+            <li><b>Objects Recognition</b>: Project in which i had to build machine learning algorithms for classifying objects from a given dataset.</li>
+            </ul>
+            More informations about these projects were put in the documentation files, which are located in the corresponding project folders
+          </div>
+          <a href="https://github.com/stefano899/Dataset-Analisys" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
  
 <!-- Footer Links -->

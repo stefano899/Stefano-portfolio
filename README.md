@@ -135,25 +135,23 @@
       </div>
     </div>
   </div>
-  <!-- Card 6 -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card portfolio-card shadow-sm h-100">
-      <div class="card-body">
-        <h5 class="card-title">Machine Learning Projects</h5>
-        <div class="card-text-scroll">
-           Machine learning projects that were done during the master's in computer science. This github is composed by three different projects:
-          <div class="card-text-scroll">
-  Machine learning projects that were done during the master's in computer science. This GitHub is composed by three different projects:
-  <b>Missing Values predictor</b>: Project in which I had to build a machine learning model for predicting missing values from a dataset.
-  <b>Sequence predictors</b>: Project in which I had to build a machine learning algorithm for predicting a sequence of either symbolic or numeric values, given a known sequence.
-  <b>Objects Recognition</b>: Project in which I had to build machine learning algorithms for classifying objects from a given dataset.
-  More information about these projects is in the documentation files located in the corresponding project folders.
-</div>
-        </div>
-        <a href="https://github.com/stefano899/Dataset-Analisys" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
+  <!-- Card Machine Learning Projects -->
+<div class="col-md-6 col-lg-4">
+  <div class="card portfolio-card shadow-sm h-100">
+    <div class="card-body">
+      <h5 class="card-title">Machine Learning Projects</h5>
+      <div class="card-text-scroll">
+        Machine learning projects developed during the master's in computer science. This GitHub contains three projects:
+        <br><br>
+        <b>Missing Values predictor:</b> Project where I built a machine learning model for predicting missing values in a dataset.<br>
+        <b>Sequence predictors:</b> Project where I implemented algorithms to predict sequences of either symbolic or numeric values, given a known sequence.<br>
+        <b>Objects Recognition:</b> Project where I developed machine learning algorithms for classifying objects from a given dataset.<br><br>
+        More information about these projects is available in the documentation files located in each project folder.
       </div>
+      <a href="https://github.com/stefano899/Dataset-Analisys" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
     </div>
   </div>
+</div>
 </section>
 <!-- Footer Links -->
 <footer class="text-center py-4">

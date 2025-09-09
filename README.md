@@ -5,10 +5,10 @@
   <title>Stefano's Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    :root{
-      /* regola qui l'altezza globale delle card e dell'area testo */
-      --card-height: 300px;      /* altezza totale card (solo il corpo) */
-      --text-max-height: 170px;  /* altezza dell'area scrollabile */
+    .portfolio-card .card-body {
+      height: 300px; /* uguale per tutte */
+      display: flex;
+      flex-direction: column;
     }
     body { background-color: #f8f9fa; }
     .profile-img {

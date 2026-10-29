@@ -1,4 +1,5 @@
-<html lang="it">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -6,9 +7,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     :root{
-      /* regola qui l'altezza globale delle card e dell'area testo */
-      --card-height: 350px;      /* altezza totale card (solo il corpo) */
-      --text-max-height: 170px;  /* altezza dell'area scrollabile */
+      /* regola qui l'altezza del corpo di tutte le card */
+      --card-height: 320px;
     }
     body { background-color: #f8f9fa; }
     .profile-img {
@@ -17,29 +17,31 @@
     }
     .portfolio-card { transition: transform 0.3s ease; }
     .portfolio-card:hover { transform: translateY(-5px); }
-    /* Card uniformi + layout per allineare il bottone in basso */
+    /* Card tutte alte uguali: titolo in alto, bottone sempre in fondo */
     .portfolio-card .card-body{
-      height: 300px;
+      height: var(--card-height);
       display: flex;
       flex-direction: column;
     }
-    /* Area descrizione scrollabile */
+    /* L'area testo occupa lo spazio rimasto e scorre se il testo è lungo */
     .card-text-scroll{
       flex: 1 1 auto;
-      overflow: auto;
-      max-height: var(--text-max-height);
+      min-height: 0;
+      overflow-y: auto;
+    }
+    .card-text-scroll ul{
+      padding-left: 1.2rem;
+      margin-bottom: 0.5rem;
     }
     /* Spazio tra testo e bottone, bottone parte da sinistra */
     .card-body .btn{
       margin-top: 0.75rem;
       align-self: flex-start;
     }
-    /* Piccolo tuning responsive: su schermi piccoli alzo l'area testo */
-    @media (max-width: 575.98px){
-      :root{
-        --card-height: 300px;
-        --text-max-height: 170px;
-      }
+    /* Su schermi piccoli c'è una card per riga: altezza in base al contenuto */
+    @media (max-width: 767.98px){
+      .portfolio-card .card-body{ height: auto; }
+      .card-text-scroll{ max-height: 220px; }
     }
   </style>
 </head>
@@ -47,23 +49,23 @@
 <!-- Header Section -->
 <header class="bg-white shadow-sm py-4 mb-5">
   <div class="container text-center">
-    <img src="profilo.jpg" alt="Foto profilo di Stefano Rosini" class="profile-img mb-3" />
+    <img src="profilo.jpg" alt="Profile photo of Stefano Rosini" class="profile-img mb-3" />
     <h1 class="fw-bold">Stefano Rosini</h1>
     <p class="lead">Computer Scientist | Master's Student in Computer Science</p>
-    <p>I have a passion for learning new things and I can adapt easily to new environments.</p>
+    <p>I have a passion for learning new things and I adapt easily to new environments.</p>
   </div>
 </header>
 <!-- Portfolio Section -->
 <section class="container mb-5">
   <h2 class="text-center mb-4">Portfolio Projects</h2>
-  <div class="row g-4">
+  <div class="row g-4 justify-content-center">
     <!-- Card 1 -->
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
-          <h5 class="card-title">Periodontitis Detection </h5>
+          <h5 class="card-title">Periodontitis Detection</h5>
           <div class="card-text-scroll">
-            A study made during the bachelor's thesys in which i used Smartphone images and MATLAB image processing methods to automatically detect and segment teeth for periodontitis evaluation. The whole project was made in MATLAB
+            A study carried out for my bachelor's thesis, in which I used smartphone images and image processing methods to automatically detect and segment teeth for periodontitis evaluation. The whole project was developed in MATLAB.
           </div>
           <a href="https://ieeexplore.ieee.org/document/10178731" class="btn btn-outline-primary" target="_blank" rel="noopener">Read Paper</a>
         </div>
@@ -75,7 +77,7 @@
         <div class="card-body">
           <h5 class="card-title">Agent Implementation</h5>
           <div class="card-text-scroll">
-            In this project made during the master's degree, i made a project in DALI (<a href="https://stefano899.github.io/Stefano-portfolio/">Link to the DALI's paper</a>) in which i created some intelligents agents that cooperate with eachothers into doing an auction.
+            A project developed during my master's degree in DALI (<a href="https://github.com/AAAI-DISIM-UnivAQ/DALI/blob/master/docs/DALI_Language_description.pdf" target="_blank" rel="noopener">DALI paper</a>), in which I created intelligent agents that cooperate with each other to run an auction.
           </div>
           <a href="https://github.com/stefano899/AgentArchitecture" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
@@ -87,7 +89,7 @@
         <div class="card-body">
           <h5 class="card-title">Python CNN Implementation</h5>
           <div class="card-text-scroll">
-            In this project made during the master's degree, i created 2 CNN architectures with different initialization schemas for the evaluation of the performances between them.
+            A project developed during my master's degree, in which I built two CNN architectures with different initialization schemes and compared their performance.
           </div>
           <a href="https://github.com/stefano899/DNN_2025" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
@@ -99,7 +101,7 @@
         <div class="card-body">
           <h5 class="card-title">Java Chess Implementation</h5>
           <div class="card-text-scroll">
-             A simple terminal-based chess game developed during my Bachelor's degree, using Java and the Java Collections Framework.
+            A simple terminal-based chess game developed during my bachelor's degree, using Java and the Java Collections Framework.
           </div>
           <a href="https://github.com/LPODISIM2023/scacchi-informatici-a-chiamata" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
@@ -109,14 +111,14 @@
     <div class="col-md-6 col-lg-4">
       <div class="card portfolio-card shadow-sm h-100">
         <div class="card-body">
-          <h5 class="card-title">Data-Science-Project</h5>
+          <h5 class="card-title">Data Science Project</h5>
           <div class="card-text-scroll">
             For the Data Analytics and Data-Driven Decision exam, I developed three projects:
             <ul>
-              <li><b>PhishingFinale</b>: Built a binary decision tree classifier to distinguish between phishing and non-phishing websites, supported by statistical analysis for deciding if the dataset should have been manipulated or not.</li>
-              <li><b>Challenge Avezzano & Pescara (2 projects)</b>: Predicted contract sales for cities in the Abruzzo region and designed a decision optimization algorithm to estimate the optimal backbone network based on the dataset with root in Avezzano and Pescara. The two codes have the same data analysis.</li>
+              <li><b>PhishingFinale</b>: a binary decision tree classifier that distinguishes phishing from non-phishing websites, supported by a statistical analysis to decide whether the dataset needed to be manipulated.</li>
+              <li><b>Challenge Avezzano &amp; Pescara (2 projects)</b>: predicted contract sales for cities in the Abruzzo region and designed a decision optimization algorithm to estimate the optimal backbone network rooted in Avezzano and Pescara. Both projects share the same data analysis.</li>
             </ul>
-            Technologies used: Python Libraries: Scikit-learn, Pandas, GurobiPy
+            Technologies: Python (Scikit-learn, Pandas, GurobiPy).
           </div>
           <a href="https://github.com/stefano899/Data-Science-Project" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
@@ -128,34 +130,35 @@
         <div class="card-body">
           <h5 class="card-title">Dataset Analysis Projects</h5>
           <div class="card-text-scroll">
-             Some projects in which i used pandas and nannyml for Analyzing Datasets.
+            Projects in which I used Pandas and NannyML to analyze datasets.
           </div>
           <a href="https://github.com/stefano899/Dataset-Analisys" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Card Machine Learning Projects -->
-<div class="col-md-6 col-lg-4">
-  <div class="card portfolio-card shadow-sm h-100">
-    <div class="card-body">
-      <h5 class="card-title">Machine Learning Projects</h5>
-      <div class="card-text-scroll">
-        Machine learning projects developed during the master's in computer science. This GitHub contains three projects:
-        <br><br>
-        <b>Missing Values predictor:</b> Project where I built a machine learning model for predicting missing values in a dataset.<br>
-        <b>Sequence predictors:</b> Project where I implemented algorithms to predict sequences of either symbolic or numeric values, given a known sequence.<br>
-        <b>Objects Recognition:</b> Project where I developed machine learning algorithms for classifying objects from a given dataset.<br><br>
-        More information about these projects is available in the documentation files located in each project folder.
+    <!-- Card 7 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card portfolio-card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning Projects</h5>
+          <div class="card-text-scroll">
+            Machine learning projects developed during my master's degree in computer science. The repository contains three projects:
+            <ul>
+              <li><b>Missing values predictor</b>: a machine learning model that predicts missing values in a dataset.</li>
+              <li><b>Sequence predictors</b>: algorithms that predict sequences of symbolic or numeric values, given a known sequence.</li>
+              <li><b>Object recognition</b>: machine learning algorithms that classify objects from a given dataset.</li>
+            </ul>
+            More details are available in the documentation inside each project folder.
+          </div>
+          <a href="https://github.com/stefano899/Machine-Learning" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
+        </div>
       </div>
-      <a href="https://github.com/stefano899/Dataset-Analisys" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
     </div>
   </div>
-</div>
 </section>
 <!-- Footer Links -->
 <footer class="text-center py-4">
-  <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&hl=it&oi=ao" class="btn btn-primary mx-2" target="_blank" rel="noopener">Scholar Page</a>
+  <a href="https://scholar.google.com/citations?user=zHYgI1QAAAAJ&amp;hl=it&amp;oi=ao" class="btn btn-primary mx-2" target="_blank" rel="noopener">Scholar Page</a>
 </footer>
 </body>
 </html>

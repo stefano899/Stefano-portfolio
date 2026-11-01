@@ -51,7 +51,7 @@
   <div class="container text-center">
     <img src="profilo.jpg" alt="Profile photo of Stefano Rosini" class="profile-img mb-3" />
     <h1 class="fw-bold">Stefano Rosini</h1>
-    <p class="lead">Computer Scientist | Master's Student in Computer Science</p>
+    <p class="lead">Research Fellow in AI for Medical Imaging | MSc in Computer Science</p>
     <p>I have a passion for learning new things and I adapt easily to new environments.</p>
   </div>
 </header>
@@ -151,6 +151,25 @@
             More details are available in the documentation inside each project folder.
           </div>
           <a href="https://github.com/stefano899/Machine-Learning" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 8 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card portfolio-card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">RAG Cooking Assistant</h5>
+          <div class="card-text-scroll">
+            A Retrieval-Augmented Generation (RAG) assistant that answers cooking questions using Italian recipe books:
+            <ul>
+              <li>the PDF recipe books are converted to Markdown and split into one chunk per recipe;</li>
+              <li>the recipes are embedded and stored in a ChromaDB vector database;</li>
+              <li>for each question, the closest recipes are retrieved and passed to an LLM (Gemini), which answers citing the recipes it used as sources.</li>
+            </ul>
+            The project runs in a Docker dev container.
+            Technologies: Python (ChromaDB, PyMuPDF4LLM, OpenAI SDK), Docker.
+          </div>
+          <a href="https://github.com/stefano899/rag-cucina" class="btn btn-outline-primary" target="_blank" rel="noopener">Go to the project</a>
         </div>
       </div>
     </div>
